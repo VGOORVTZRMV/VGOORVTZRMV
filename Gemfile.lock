@@ -41,10 +41,15 @@ GEM
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
     arel (8.0.0)
+    autoprefixer-rails (7.1.5)
+      execjs
     bcrypt (3.1.11)
     bindex (0.5.0)
     bootstrap-generators (3.3.4)
       railties (>= 3.1.0)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     bootstrap_form (2.7.0)
     builder (3.2.3)
     byebug (9.1.0)
@@ -232,6 +237,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootstrap-generators
+  bootstrap-sass
   bootstrap_form
   byebug
   capybara (~> 2.13)
