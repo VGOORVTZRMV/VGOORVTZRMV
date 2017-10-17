@@ -6,7 +6,6 @@
   <thead>
     <tr>
       <th><%= t('.title') %></th>
-      <th><%= t('.body') %></th>
       <th><%= t('.published') %></th>
       <th colspan="3"></th>
     </tr>
@@ -16,8 +15,7 @@
     <% @posts.each do |post| %>
       <tr>
         <td><%= post.title %></td>
-        <td><%= post.body %></td>
-        <td><%= post.published %></td>
+        <td><%= post.published ? 'опубліковано' : 'не опубліковано' %></td>
         <td><%= link_to 'показати', post %></td>
         <td><%= link_to 'редагувати', edit_post_path(post) %></td>
         <td><%= link_to 'видалити', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
