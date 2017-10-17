@@ -15,12 +15,12 @@
 //= require vendor/jquery.waypoints.min
 //= require bootstrap
 //= require ckeditor/init
-//= require vendor/aos
 //= require vendor/owl.carousel.min
 //= require vendor/venobox.min
 //= require vendor/smooth-scroll.min
 //= require vendor/jquery.counterup.min
 //= require vendor/particles.min
 //= require vendor/app
+//= require vendor/aos
 //= require contact
 //= require main
