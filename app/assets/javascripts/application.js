@@ -12,10 +12,9 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require vendor/jquery.waypoints.min
 //= require bootstrap
 //= require ckeditor/init
-//= require vendor/modernizr-2.8.3-respond-1.4.2.min
-//= require vendor/jquery.waypoints.min
 //= require vendor/aos
 //= require vendor/owl.carousel.min
 //= require vendor/venobox.min
@@ -25,5 +24,3 @@
 //= require vendor/app
 //= require contact
 //= require main
-
-//= require_tree .
