@@ -2,6 +2,18 @@
 
 User-agent: *
 
+Allow: /
+Allow: /index
+Allow: /about
+Allow: /laws
+Allow: /partnership
+Allow: /partners
+Allow: /benefits
+Allow: /representation
+Allow: /management
+Allow: /news
+Allow: /contacts
+
 Disallow: /ckeditor
 Disallow: /users
 Disallow: /admin
