@@ -11,7 +11,7 @@
 	        	<div class="col-sm-12 col-md-10 col-md-offset-1">
 	        		<%= post.body.html_safe %>
 	        		<br/>
-	        		<p class="text-muted pull-right"> <%= post.created_at %> </p>
+	        		<p class="text-muted pull-right"> <%= post.created_at.strftime('%H:%M %e.%m.%Yр.') %> </p>
 	        	</div>
 	        </div>
 
